@@ -25,6 +25,10 @@ export const InternalSwitchContainer = styled.div`
 
 export const TextContainer = styled.div`
   text-align: center;
-  text-align: center;
+  margin-right: 14rem;
   flex: 1;
+
+  @media (max-width: 720px) {
+    margin-right: 0;
+  }
 `;
