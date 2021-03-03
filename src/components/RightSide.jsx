@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import {
   MainContainer,
   ReqContainer,
+  SquareWait,
 } from "../styles/components/RightSide.styled";
 import { GlobalContext } from "../context/GlobalContext";
 
@@ -24,7 +25,7 @@ const RightSide = () => {
           <p>Siafi: {cep.data.siafi}</p>
         </ReqContainer>
       ) : (
-        <p>Aguardando requisição</p>
+        <SquareWait largura={event.}></SquareWait>
       )}
     </MainContainer>
   );
