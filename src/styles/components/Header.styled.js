@@ -14,6 +14,7 @@ export const SwitchContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 2rem;
+
   @media (max-width: 720px) {
     margin-top: 0.5rem;
   }

@@ -9,6 +9,7 @@ export const dark = {
   white: "#fff",
   offBtn: "#D9CDBF",
   onBtn: "#A66F7E",
+  shadow: "#bababa",
 };
 
 export const light = {
@@ -22,4 +23,5 @@ export const light = {
   white: "#fff",
   offBtn: "#D9CDBF",
   onBtn: "#A66F7E",
+  shadow: "#666666",
 };

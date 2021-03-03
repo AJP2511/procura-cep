@@ -19,6 +19,7 @@ export const InputForm = styled.input`
   font-size: 1.25rem;
   border: none;
   border-radius: 5px;
+  box-shadow: 0 0 5px ${(props) => props.theme.shadow};
 `;
 
 export const ButtonForm = styled.button`
@@ -29,6 +30,7 @@ export const ButtonForm = styled.button`
   border: none;
   border-radius: 5px;
   transition: all 0.3s linear;
+  box-shadow: 0 0 5px ${(props) => props.theme.shadow};
 
   &:hover {
     background-color: ${(props) => props.theme.tertiary};
